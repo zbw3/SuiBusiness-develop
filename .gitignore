@@ -1,0 +1,12 @@
+.idea/
+.ipynb_checkpoints/
+*.cache
+report/
+__pycache__/
+doc/
+test_cases/reports
+ZMyLab/
+Logs/
+*.pytest_cache
+Zcode/
+/ProductApi/MiniProgramForm/api.py

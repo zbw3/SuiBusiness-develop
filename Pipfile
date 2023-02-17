@@ -1,0 +1,43 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = false
+name = "tuna"
+
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+jsonpath = "*"
+pymysql = "*"
+jmespath = "*"
+pycryptodome = "*"
+beautifulreport = "*"
+ilogger = "*"
+redis = "*"
+parameterized = "*"
+testfilter = "*"
+ddt = "*"
+python-dateutil = "*"
+pytest = "*"
+jpype1 = "*"
+pytest-html = "*"
+faker = "*"
+mitmproxy = "*"
+tabulate = "*"
+mitmdump = "*"
+
+[dev-packages]
+pillow = "*"
+pymongo = "*"
+mitmproxy = "*"
+pandas = "*"
+openpyxl = "*"
+allure-pytest = "*"
+py-mini-racer = "*"
+dill = "*"
+
+[requires]
+python_version = "3.7"
